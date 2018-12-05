@@ -1,0 +1,197 @@
+body, html{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: rgb(215, 223, 223);
+}
+.container{
+    background-color:gainsboro;
+    max-width:1084px;
+    margin: auto;
+}
+p{
+    font-family: 'Raleway', sans-serif;
+}
+img{
+    width:100%;
+}
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-image: url("image.jpg");
+    background-size:cover;
+    border-bottom: 4px solid darkslategrey;
+}
+.index{
+    display: flex;
+    flex-wrap: wrap;
+}
+.head-image{
+    width: 50%;
+    height: 250px;
+    margin: auto;
+}
+.head-image>img{
+    width: 100%;
+    height:100%;
+}
+.logo>img{
+    width:100%;
+}
+.logo{
+    width:350px;
+}
+.tagline>h3{
+    font-family:pacifico;
+}
+.index>a{
+    font-family: chicle;
+    color: blue;
+    padding:0 5px;
+}
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-top: 4px solid darkslategrey;
+    background-image: url("image.jpg");
+    background-size: cover;
+}
+.index>a:hover{
+    font-size: 2em;
+}
+.head-line{
+    text-decoration-line: underline;
+    text-align: center;
+}
+.head-index{
+    border-bottom:4px solid darkslategray;
+}
+.news1-headline,.news2-headline,.news3-headline,.news4-headline,.news5-headline,.news6-headline,.news7-headline,.news8-headline,.news9-headline,.news10-headline{
+    text-align: center;
+}
+.head-index-info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border-top: 4px solid darkslategray;
+    margin-top: 5px;
+    background-image: url("banner.png");
+    background-size: 100%;
+    background-position-y:-65px;
+}
+h3>a{
+    color: black;
+}
+h3>a:visited{
+    color: black;
+}
+h3>a:link{
+    color: black;
+}
+.news{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    width: 100%;
+}
+#news1,#news2,#news3,#news4,#news5,#news6,#news7,#news8,#news9,#news10{
+    width: 28%;
+    padding: 5px;
+}
+.news1-info,.news2-info,.news3-info,.news4-info,.news5-info,.news6-info,.news7-info,.news8-info,.news9-info,.news10-info{
+    padding: 5px;
+}
+footer>.index{
+    margin-top: 15px;
+    margin-right: 10px;
+}
+.company{
+    margin-left:10px; 
+}
+button{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    border:2px solid black;
+    border-radius:50%; 
+    margin:400px 100% 0 2%;
+}
+@media screen and (max-width:700px) and (min-width:550px){
+    .head-index-info>h3{
+        margin:0 7px 0 7px;
+    }
+    .logo{
+        width: 250px;
+    }
+    .head-image{
+        width:75%;
+    }
+    .head-line{
+        font-size:13px;
+    }
+    #news1,#news2,#news3,#news4,#news5,#news6,#news7,#news8,#news9,#news10{
+        width: 45%;
+        padding: 5px;
+    }
+}
+@media screen and (max-width:549px) and (min-width:450px){
+    .head-index-info>h3{
+        margin:0 9px 0 9px;
+    }
+    .logo{
+        width: 230px;
+    }
+    .head-image{
+        width:90%;
+    }
+    .head-line{
+        font-size:11px;
+    }
+    #news1,#news2,#news3,#news4,#news5,#news6,#news7,#news8,#news9,#news10{
+        width: 90%;
+        padding: 5px;
+    }
+}
+@media screen and (max-width:449px) and (min-width:425px){
+    .head-index-info>h3{
+        margin:0 10px 0 10px;
+    }
+    .logo{
+        width: 210px;
+    }
+    .head-image{
+        width:100%;
+    }
+    .head-line{
+        font-size:10px;
+    }
+    #news1,#news2,#news3,#news4,#news5,#news6,#news7,#news8,#news9,#news10{
+        width: 100%;
+        padding: 5px;
+    }
+}
+@media screen and (max-width:424px) and (min-width:0px){
+    .head-index-info>h3{
+        margin:0 10px 0 10px;
+    }
+    .logo{
+        width: 210px;
+        margin: auto;
+    }
+    .head-nav{
+        margin:auto;
+    }
+    .head-image{
+        width:100%;
+    }
+    .head-line{
+        font-size:10px;
+    }
+    #news1,#news2,#news3,#news4,#news5,#news6,#news7,#news8,#news9,#news10{
+        width: 100%;
+        padding: 5px;
+    }
+}

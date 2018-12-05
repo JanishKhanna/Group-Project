@@ -1,0 +1,114 @@
+body, html{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: rgb(215, 223, 223);
+}
+img{
+    width:100%;
+}
+.container{
+    max-width:1084px;
+    margin: auto;
+    background-color:gainsboro;
+}
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-image: url("image.jpg");
+    background-size:cover;
+    border-bottom: 4px solid darkslategrey;
+}
+.index{
+    display: flex;
+    flex-wrap: wrap;
+}
+.index>a{
+    padding:0 5px;
+    font-family: chicle;
+}
+.logo>img{
+    width:100%;
+}
+.logo{
+    width:350px;
+}
+.tagline>h3{
+    font-family:pacifico;
+}
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-top: 4px solid darkslategrey;
+    background-image: url("image.jpg");
+    background-size: cover;
+}
+a:hover{
+    font-size: 2em;
+}
+.company{
+    margin-left: 10px;
+}
+.index{
+    margin-left:10px;
+    margin-top: 15px;
+}
+.main-heading{
+   color: black;
+    background-image: url("about-background.png");
+    background-size:100%;
+    background-position-y: -150px;
+    background-repeat: no-repeat;
+    height: 100px;
+    text-align: center;
+    border-bottom: 4px solid darkslategrey;
+}
+.main-heading>h1{
+    margin-top: 0px;
+}
+p{
+    font-family: 'Raleway', sans-serif;
+}
+
+@media screen and (min-width:900px) and (max-width:1100px) {
+    .logo{
+        width: 275px;
+    }
+}
+    
+@media screen and (min-width:600px) and (max-width:899px) {
+    h1{
+        text-align:center;
+        padding-left:10px;
+        padding-right: 10px;
+    }
+    .logo{
+        width: 250px;
+    }
+}
+    
+@media screen and (max-width:599px){
+    h1 {
+        text-align:centre;
+        padding-left: 10px;
+        padding-right: 10px;
+        }
+    .logo{
+        width: 230px;
+        margin: auto;
+    }
+    .head-nav{
+        margin:auto;
+    }
+    .main-heading{
+        background-size: auto;
+        height: 140px;
+    }
+}
+
+
+
+    

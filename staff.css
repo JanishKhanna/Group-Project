@@ -1,0 +1,229 @@
+body, html{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: rgb(215, 223, 223);
+}
+.container{
+    background-color:gainsboro;
+    max-width:1084px;
+    margin: auto;
+}
+img{
+    width:100%;
+}
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-image: url("image.jpg");
+    background-size:cover;
+    border-bottom: 4px solid darkslategrey;
+}
+.index{
+    display: flex;
+    flex-wrap: wrap;
+}
+.head-image{
+    width: 50%;
+    height: 250px;
+    margin: auto;
+}
+.head-image>img{
+    width: 100%;
+    height:100%;
+}
+.logo>img{
+    width:100%;
+}
+.logo{
+    width:350px;
+}
+.tagline>h3{
+    font-family:pacifico;
+}
+.index>a{
+    font-family: chicle;
+    color: blue;
+    padding:0 5px;
+}
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-top: 4px solid darkslategrey;
+    background-image: url("image.jpg");
+    background-size: cover;
+}
+.index>a:hover{
+    font-size: 2em;
+}
+.second-container{
+    border-bottom: 2px solid darkslategrey;
+    margin:0 0 50px 0;
+    height: 100px;
+    background-image: url("team.png");
+    background-position-y: -167px;
+    background-size: 100%;
+}
+.second-container>h2{
+    display: inline-block;
+    margin-top: 40px;
+}
+.third-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 35px 0 35px 0;;
+}
+p{
+    font-family: 'Raleway', sans-serif;
+}
+.staff1, .staff2, .staff3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 40px 0 0 0;
+}
+.staff1>.text1{
+    width: 60%;
+}
+.staff1>.image1{
+    width:220px;
+}
+.image1{
+    border: 2px solid darkslategray;
+    position: relative;
+    height: 120px;
+    margin-top:64px;
+}
+.image1>img{
+    border-radius:50%;
+    height: 125px;
+    width: 125px;
+    position: absolute;
+    margin: -70px 0 0 46px;
+}
+.image1>p{
+    position: absolute;
+    margin: 80px 0 0 60px;
+}
+.staff2>.text2{
+    width: 60%;
+}
+.staff2>.image2{
+    width:220px;
+}
+.image2{
+    border: 2px solid darkslategray;
+    position: relative;
+    height: 120px;
+    margin-top:64px;
+}
+.image2>img{
+    border-radius:50%;
+    height: 125px;
+    width: 125px;
+    position: absolute;
+    margin: -70px 0 0 46px;
+}
+.image2>p{
+    position: absolute;
+    margin: 80px 0 0 60px;
+}
+.staff3>.text3{
+    width: 60%;
+}
+.staff3>.image3{
+    width:220px;
+}
+.image3{
+    border: 2px solid darkslategray;
+    position: relative;
+    height: 120px;
+    margin-top:64px;
+}
+.image3>img{
+    border-radius:50%;
+    height: 125px;
+    width: 125px;
+    position: absolute;
+    margin: -70px 0 0 46px;
+}
+.image3>p{
+    position: absolute;
+    margin: 80px 0 0 50px;
+}
+@media screen and (max-width:700px) and (min-width:550px){
+    .logo{
+        width: 250px;
+    }
+    .second-container>h2{
+        font-size: 22px;
+    }
+    .staff1>.text1{
+        width: 100%;
+    }
+    .staff2>.text2{
+        width: 100%;
+    }
+    .staff3>.text3{
+        width: 100%;
+    }
+}
+@media screen and (max-width:549px) and (min-width:450px){
+    .logo{
+        width: 230px;
+    }
+    .second-container>h2{
+        font-size: 19px;
+    }
+    .staff1>.text1{
+        width: 100%;
+    }
+    .staff2>.text2{
+        width: 100%;
+    }
+    .staff3>.text3{
+        width: 100%;
+    }
+}
+@media screen and (max-width:449px) and (min-width:425px){
+  
+    .logo{
+        width: 210px;
+    }
+   .second-container>h2{
+        font-size: 17px;
+    }
+    .staff1>.text1{
+        width: 100%;
+    }
+    .staff2>.text2{
+        width: 100%;
+    }
+    .staff3>.text3{
+        width: 100%;
+    }
+}
+@media screen and (max-width:424px) and (min-width:0px){
+    .logo{
+        width: 210px;
+        margin: auto;
+    }
+    .second-container>h2{
+        font-size: 17px;
+    }
+    .staff1>.text1{
+        width: 100%;
+    }
+    .staff2>.text2{
+        width: 100%;
+    }
+    .staff3>.text3{
+        width: 100%;
+    }
+    .head-nav{
+        margin:auto;
+    }
+}

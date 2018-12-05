@@ -1,0 +1,142 @@
+body, html{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: rgb(215, 223, 223);
+}
+.container{
+    max-width: 1084px;
+    margin: auto;
+}
+img{
+    width:100%;
+}
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-image: url("image.jpg");
+    background-size:cover;
+    border-bottom: 4px solid darkslategrey;
+}
+#content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+p{
+    font-family: 'Raleway', sans-serif;
+}
+.details{
+    width: 40%;
+}
+.form{
+    width: 40%;
+    margin-top:20px;
+}
+.top{
+    margin-top: 40px;
+}
+.width{
+    width: 100%;
+    height: 50px;
+}
+.index{
+    display: flex;
+    flex-wrap: wrap;
+}
+.index>a{
+    padding:0 5px;
+    font-family: chicle;
+}
+.index>a:hover{
+    font-size: 2em;
+}
+.logo>img{
+    width:100%;
+}
+.logo{
+    width:350px;
+}
+.tagline>h3{
+    font-family:pacifico;
+}
+.head{
+    width: 100%;
+    font-size: 50px;
+    display: inline-block;
+    border-bottom:4px solid gray; 
+    height: 100px;
+    background-image: url("contact.png");
+    background-position-y: -80px;
+    background-size: 100%;    
+}
+.head>span{
+    margin-top: 50px;
+}
+button{
+    background-color: aqua;
+}
+.btn{
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: blue;
+}
+.btn{
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: blue;
+}
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-top: 4px solid darkslategrey;
+    background-image: url("image.jpg");
+    background-size: cover;
+}
+footer>.index{
+    margin-top: 15px;
+    margin-right: 10px;
+}
+@media screen and (max-width:750px){
+    .index>a{
+        padding:0 4px;
+    }
+    a:hover{
+        font-size: 1.7em;
+    }
+    .logo{
+        width: 250px;
+    }
+}     
+@media screen and (max-width:520px){
+    .logo{
+        width: 250px;
+    }
+    a:hover{
+        font-size: 1.3em;
+    }
+    .index{
+        margin-top: -14px;
+    }
+    .details{
+        width: 90%;
+        margin: auto;
+    }
+    .form{
+        width: 90%;
+        margin: auto;
+    }   
+    .logo{
+        width: 210px;
+        margin: auto;
+    }
+    .head-nav{
+        margin:auto;
+    }
+}
